@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="eCom Webapp Test Suite">
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Amazon Test">
+		<classes>
+			<class name="com.selenium.testNG.practice.amazonHomePage"></class>
+			<class
+				name="com.selenium.testNG.practice.AmazonLinkVerificationCssSelectorTest"></class>
+			<class
+				name="com.selenium.testNG.practice.AmazonLinkVerificationTest"></class>
+			<class
+				name="com.selenium.testNG.practice.AmazonLinkVerificationXpathTest"></class>
+			<class name="com.selenium.testNG.practice.AmazonSearchTest"></class>
+		</classes>
+	</test>
+	
+	<test name="assertion">
+		<classes>
+			<class name="com.practice3.assertions.assertions"></class>
+		</classes>
+	</test>
+	<test name="amazon and Facebook">
+	
+	<classes>
+		<class name="com.selenium.testNG.practice.browserbasedGroupTest"></class>
+	</classes>
+	</test>
+	
+	
+</suite>

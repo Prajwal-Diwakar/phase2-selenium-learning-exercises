@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.163">
+  <properties />
+  
+  
+            <testcase name="testAmazonHomePageTitle2" time="0.415" classname="com.selenium.testNG.practice.amazonHomePage" />
+                <testcase name="testAmazonHomePageTitle" time="0.585" classname="com.selenium.testNG.practice.amazonHomePage" />
+                <testcase name="testAmazonHomePageSourceUrl" time="0.163" classname="com.selenium.testNG.practice.amazonHomePage" />
+      
+</testsuite>

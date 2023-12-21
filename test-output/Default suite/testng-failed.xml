@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.simplilearn.testng.amazon.AmazonSearchTest">
+      <class name="com.practice3.assertions.assertions">
         <methods>
-          <include name="testSearch2"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="Launch"/>
+          <include name="Facebook"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.simplilearn.testng.amazon.AmazonSearchTest -->
+      </class> <!-- com.practice3.assertions.assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

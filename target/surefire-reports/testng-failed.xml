@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.simplilearn.testng.AttributeTest">
+        <methods>
+          <include name="r2"/>
+          <include name="r3"/>
+        </methods>
+      </class> <!-- com.simplilearn.testng.AttributeTest -->
+      <class name="com.simplilearn.testng.amazon.AmazonSearchTest">
+        <methods>
+          <include name="testSearch5"/>
+          <include name="beforeClass"/>
+          <include name="testSearch6"/>
+          <include name="testSearch4"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.simplilearn.testng.amazon.AmazonSearchTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.211">
+  <properties />
+  
+  
+            <testcase name="tdLinkTest1" time="8.199" classname="com.selenium.testNG.practice.AmazonLinkVerificationCssSelectorTest" />
+                <testcase name="tdLinkTest2" time="8.012" classname="com.selenium.testNG.practice.AmazonLinkVerificationCssSelectorTest" />
+      
+</testsuite>
